@@ -1,6 +1,6 @@
 # Intro to Sass challenge
 
-Congrats for surviving the Intro to Sass presentation! Hope we didn't bore you to sleep after a long day, and that you are BUMPED to get stuck into some coding! This is the fun part :)
+Congrats for surviving the Intro to Sass presentation! Hope we didn't bore you to sleep after a long day, and that you are PUMPED to get stuck into some coding! This is the fun part :)
 
 ## So what's the challenge?
 
