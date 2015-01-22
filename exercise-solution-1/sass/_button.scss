@@ -1,0 +1,27 @@
+.btn-primary {
+  display: inline-block;
+  background: $green-3;
+  padding: 10px;
+  color: #fff;
+  font-weight: bold;
+
+  &:hover,
+  &:focus {
+    color: #fff;
+    background: complement($green-3);
+  }
+}
+
+.btn-sec {
+  display: inline-block;
+  background: $green-4;
+  padding: 10px;
+  color: #fff;
+  font-weight: bold;
+
+  &:hover,
+  &:focus {
+    color: #fff;
+    background: complement($green-4);
+  }
+}

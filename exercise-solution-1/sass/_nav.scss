@@ -1,0 +1,35 @@
+.main-nav {
+  padding: 5px 20px;
+
+  ul {
+    margin: 0;
+    padding: 0;
+  }
+
+  li {
+    display: inline-block;
+    margin-right: 10px;
+
+    a {
+      border-radius: 4px;
+      display: block;
+      padding: 10px 15px;
+      color: $grey-1;
+
+      &:hover,
+      &:focus {
+        color: $grey-2;
+      }
+    }
+
+    &.active a {
+      background: $green-2;
+      color: #fff;
+
+      &:hover,
+      &:focus {
+        background: darken($green-2, 5%);
+      }
+    }
+  }
+}

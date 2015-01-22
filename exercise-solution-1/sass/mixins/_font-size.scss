@@ -1,0 +1,17 @@
+//
+//Convert font-size from px to rem
+//
+//e.g. p {@include font-size(12px);}
+//
+
+
+// Function for converting a px based font-size to rem.
+@function calculate-rem($size) {
+  $rem-size: $size / 16px; //Default font size on html element is 100%, equivalent to 16px;
+  // #{$some-variable} - Read about Sass interpolation here: http://stackoverflow.com/questions/22385157/sass-variable-within-string
+  @return #{$rem-size}rem;
+}
+
+@mixin font-size($size) {
+  font-size: calculate-rem($size);
+}

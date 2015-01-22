@@ -1,0 +1,29 @@
+* {
+  box-sizing: border-box;
+}
+
+
+body {
+  padding: 20px 0;
+  background: #ccc;
+  font-size: 14px;
+}
+
+a {
+  color: $green-1;
+  text-decoration: none;
+
+  &:hover,
+  &:focus {
+    color: darken($green-1, 0.5);
+  }
+}
+
+img {
+  max-width: 100%;
+}
+
+hr {
+  margin: 20px 0;
+  border: 1px solid $grey-3;
+}

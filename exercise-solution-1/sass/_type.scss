@@ -1,0 +1,14 @@
+h1 {
+  @include font-size(40px);
+}
+
+
+h2,
+h3 {
+  color: $green-1;
+  margin-top: 0;
+}
+
+p {
+  @include font-size(14px);
+}
